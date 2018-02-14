@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_with_shadow2"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/linearLayout">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="@dimen/paddingSize2"
+            android:layout_marginBottom="@dimen/paddingSize2"
+            android:layout_marginRight="@dimen/paddingSize2"
+            android:layout_marginTop="@dimen/paddingSize2"
+            android:background="@drawable/bgshadow"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/linearLayout1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_weight="2"
+                        android:src="@drawable/err"
+                        android:paddingLeft="@dimen/paddingSize2"
+                        android:layout_height="0dp"
+                        android:id="@+id/imageView4" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="0dp"></LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="6"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/linearLayout12">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_weight="4"
+                        android:layout_height="0dp"
+                        android:textSize="@dimen/text_size_3"
+                        android:textColor="#FFFFFF"
+                        android:text="Successfully Registered."
+                        android:gravity="center_vertical"
+                        android:id="@+id/errorMSG" />
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_weight="2"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/linearLayout3">
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_weight="4"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:id="@+id/linearLayout2"></LinearLayout>
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="OK"
+                            android:layout_weight="3"
+                            android:background="@drawable/msgbutton"
+                            android:id="@+id/btn"
+                            android:layout_below="@+id/linearLayout"
+                            android:layout_centerHorizontal="true" />
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_weight="5"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:id="@+id/linearLayout4"></LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    </RelativeLayout>

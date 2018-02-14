@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\WSTV\\Android\\Wireless Shop (04.07.2017)\\Wireless Shop (04.07.2017)\\TVAdvertisement\\sample\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.0.0.aar\\b24453e117152babf4849c0020228907\\res\\values-hdpi-v4\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "282",
+                        "endLines": "8",
+                        "endColumns": "13",
+                        "endOffsets": "552"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "325"
+                    }
+                }
+            ]
+        }
+    ]
+}

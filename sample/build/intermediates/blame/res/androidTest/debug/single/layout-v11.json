@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Sumudu\\Documents\\TVAdvertisement\\sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v11\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\Sumudu\\Documents\\TVAdvertisement\\sample\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\layout-v11\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\TV App\\Wireless Shop (11.09.2016)\\TVAdvertisement\\sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v11\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\Sumudu\\.android\\build-cache\\1d1611acc32bedac1b674aa553c1ee19503ffe4f\\output\\res\\layout-v11\\abc_screen_content_include.xml"
+    }
+]

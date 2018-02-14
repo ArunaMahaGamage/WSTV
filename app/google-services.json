@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "585544099459",
+    "firebase_url": "https://project-7048205773355073248.firebaseio.com",
+    "project_id": "project-7048205773355073248",
+    "storage_bucket": "project-7048205773355073248.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585544099459:android:4d91625575576cc3",
+        "android_client_info": {
+          "package_name": "itemloader.witellsolutions.tvadvertisement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585544099459-ii4iq5ppm6hh95q0q83i8e41umsk3k8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVJvOmi0dxIQnETsxErFxRec0uNK_15Ws"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
